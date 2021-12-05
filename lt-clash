@@ -4,13 +4,6 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
-dns:
-    enable: false
-    ipv6: false
-    default-nameserver: [223.5.5.5, 119.29.29.29]
-    enhanced-mode: redir-host
-    fake-ip-range: 198.18.0.1/16
-    use-hosts: true
 proxies:
   - {name: '雷霆118_1', server: 23.225.159.190, port: 443, type: vmess, uuid: 05cd2f09-7070-4319-8d1e-9e5af96415c8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/122004171413, skip-cert-verify: true, ws-headers: {Host: www.09622821.xyz}}
   - {name: '雷霆119_2', server: 23.224.9.90, port: 443, type: vmess, uuid: bb25859e-f6da-4101-989f-b4dd67a22682, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/122004171413, skip-cert-verify: true, ws-headers: {Host: www.09622821.xyz}}
